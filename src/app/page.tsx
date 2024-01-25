@@ -37,9 +37,9 @@ export default async function Page() {
         <Image
           src={image}
           alt={title}
-          width={1000}
-          height={1000}
-          className="-z-10 absolute inset-0 object-cover w-full h-full"
+          width={800}
+          height={800}
+          className="-z-10 blur-sm absolute inset-0 object-cover w-full h-full"
         />
         <div className="-z-10 bg-gradient-to-t from-gray-900 via-gray-900/40 absolute inset-0" />
         <div className="-z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10 absolute inset-0" />
