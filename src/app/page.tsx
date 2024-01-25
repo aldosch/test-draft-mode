@@ -29,6 +29,10 @@ export default async function Page() {
 
   return (
     <main className="container m-4 mx-auto">
+      <p className="dark:text-white text-center text-black">
+        This page is{" "}
+        <strong>{draft ? "in draft mode" : "not in draft mode"}</strong>.
+      </p>
       <article className="isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80 relative flex flex-col p-8 m-4 overflow-hidden">
         <Image
           src={image}
